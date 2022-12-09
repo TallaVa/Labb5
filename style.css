@@ -59,6 +59,17 @@ main {
     border-radius: 50%;
 }
 
+.cirkel3 {
+    background: white;
+    background: linear-gradient(to right bottom,
+            rgba(255, 255, 255, 0.8),
+            rgba(255, 255, 255, 0.5));
+    height: 5rem;
+    width: 10rem;
+    position: fixed;
+    border-radius: 50%;
+}
+
 .cirkel1 {
     top: 5%;
     right: 15%;
@@ -68,7 +79,10 @@ main {
     bottom: 5%;
     left: 15%;
 }
-
+.cirkel3 {
+    top: 5%;
+    left: 1%;
+}
 .dashboard {
     flex: 1;
     display: flex;
@@ -87,6 +101,12 @@ main {
     margin: 2rem 0rem;
     padding: 1rem 5rem;
     align-items: center;
+}
+.link1 {
+    display: flex;
+    margin: 0rem 0rem;
+    padding: 1.5rem 2.5rem;
+    align-items: center;  
 }
 
 .link h2 {
